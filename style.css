@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    font-size: 24px;
+    font-weight: 550;
+}
+.container{
+    width: 100%;
+    margin:35px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.image{
+    height: 80vh;
+    width: 80px; 
+    margin: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    position: relative;
+   
+}
+.image .text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.active{
+    width: 750px;
+}
+.active .text{
+    opacity: 1;
+    transition: all 0.7s ease-in;
+}
+.img-1{
+    background: url("/50_days_challenge/Day-1/day-1_img/img-1.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.img-2{
+    background: url("/50_days_challenge/Day-1/day-1_img/img-2.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-3{
+    background: url("/50_days_challenge/Day-1/day-1_img/img-3.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-4{
+    background: url("/50_days_challenge/Day-1/day-1_img/img-4.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-5{
+    background: url("/50_days_challenge/Day-1/day-1_img/img-5.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
